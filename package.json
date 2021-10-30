@@ -1,0 +1,23 @@
+{
+  "name": "FoodWays_Ultimo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerarck2021/Food_Ways.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gerarck2021/Food_Ways/issues"
+  },
+  "homepage": "https://github.com/Gerarck2021/Food_Ways#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

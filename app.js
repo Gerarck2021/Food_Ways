@@ -9,4 +9,12 @@ app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/index.html'));
 });
 
+app.get('/carrito', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/carrito.html'));
+}); 
+
+app.get('/detalle-reservacion', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/detalleReservacion.html'));
+}); 
+
 app.listen(port, ()=>console.log(`Servidor corriendo en el puerto ${port}`));

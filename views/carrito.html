@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="bodyCarrito">
+    <header>
+        <a href="#"><img src="img/conrad-logo.jpg" alt="Hotel Conrad Logo"></a>
+        <nav>
+            <li><a href="/" > Inicio </a></li>
+            <li><a href="/carrito" >Reservaciones </a></li>
+            <li><a href="#" >Iniciar Sesion</a></li>
+            <li><a href="#" >Registrarse </a></li>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <img src="./img/campanita.jpg" class="campanita" alt="">
+            <p class="frase">
+                "Las mejores <em><strong>COMODIDADES</strong></em> se encuentran aca en CONRAD"
+            </p>
+        </div>
+    </section>
+    <section>
+        <h2 class="subtitulo">TUS RESERVACIONES REALIZADAS</h2>
+        <article class="articuloReservacion">
+            <div class="imagenReservacion">
+                <img src="./img/combo.jpg"  class="imgR" alt="">
+            </div>
+            <div class="detallesReservacion">
+                <p>Reservacion En Combo estadia 6 dias paga 5</p>
+                <p>Puntuacion Hotel</p>
+                <p>$0000.000000</p>
+                <p><a href="#" class="verMas">Quitar</a></p>
+                <p><a href="#" class="verMas">Agregar a Lista de Deseos</a></p>
+                <p><a href="/detalle-reservacion" class="verMas">Ver Detalle de Reservacion</a></p>
+            </div>
+        </article>
+
+        <article class="articuloReservacion">
+            <div class="imagenReservacion">
+                <img src="./img/premium.jpg"  class="imgR" alt="">
+            </div>
+            <div class="detallesReservacion">
+                <p>Reservacion En Combo estadia 6 dias paga 5</p>
+                <p>Puntuacion Hotel</p>
+                <p>$0000.000000</p>
+                <p><a href="#" class="verMas">Quitar</a></p>
+                <p><a href="#" class="verMas">Agregar a Lista de Deseos</a></p>
+                <p><a href="/detalle-reservacion" class="verMas">Ver Detalle de Reservacion</a></p>
+            </div>
+        </article>
+        <div class="botonAnadir">
+            <input type="submit" name="buttonAdd" id="buttonAdd" value="Agregar Reservacion"></button>
+        </div>
+    </section>
+    <section>
+        <h2 class="subtitulo">CARRUSEL DE OFERTAS</h2>
+        <!--Carrusel-->
+        <div class="carrusel">
+            <article>
+                <img src="./img/basico.jpg" class="basico" alt="">
+                <div class="descripcion">
+                    <p>PLAN BASICO</p>
+                    <p><a href="#" class="verMas">Ver Mas...</a></p>
+                </div>
+            </article>
+            <article>
+                <img src="./img/combo.jpg" class="basico" alt="">
+                <div class="descripcion">
+                    <p>PLAN COMBO</p>
+                    <p><a href="#" class="verMas">Ver Mas...</a></p>
+                </div>
+            </article>
+            <article>
+                <img src="./img/premium.jpg" class="basico" alt="">
+                <div class="descripcion">
+                    <p>PLAN PREMIUM</p>
+                    <p><a href="#" class="verMas">Ver Mas...</a></p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section>
+        <h2 class="subtitulo">RESERVACIONES MAS SOLICITADAS</h2>
+        <!--Lo mejor Calificado-->
+        <div class="carrusel">
+            <article>
+                <img src="./img/familia.jpg" class="basico" alt="">
+                <div class="descripcion">
+                    <p>Reservacion Familiar</p>
+                    <p>$0000.000000</p>
+                    <p><ion-icon name="star" class="star"></ion-icon>4.5 Estrellas</p>
+                    <p><a href="#" class="verMas">Ver Mas...</a></p>
+                </div>
+            </article>
+            <article>
+                <img src="./img/comboRes.jpg" class="basico" alt="">
+                <div class="descripcion">
+                    <p>Reservacion en Combo</p>
+                    <p>$0000.000000</p>
+                    <p><ion-icon name="star" class="star"></ion-icon>4.5 Estrellas</p>
+                    <p><a href="#" class="verMas">Ver Mas...</a></p>
+                </div>
+            </article>
+            <article>
+                <img src="./img/ahorro.jpg" class="basico" alt="">
+                <div class="descripcion">
+                    <p>Reservacion con Descuento</p>
+                    <p>$0000.000000</p>
+                    <p><ion-icon name="star" class="star"></ion-icon>4.5 Estrellas</p>
+                    <p><a href="#" class="verMas">Ver Mas...</a></p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="news">
+        <h3>Atencion al Cliente</h3>
+        <p>Si desea contactarse con nosotros o desea mantenerse al tanto de las nuevas y mejoradas ofertas en nuestro hotel, escriba su direccion de mail aqui</p>
+        <hr>
+
+        <form>
+            <input type="text" placeholder="Email">
+            <button>Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+        </ul>
+        <p> Hotel Conrad 2021</p>
+    </footer>
+</body>
+</html>

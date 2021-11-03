@@ -1,8 +1,13 @@
 {
-  "name": "FoodWays_Ultimo",
+  "name": "Food_Ways",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/Gerarck2021/Food_Ways/issues"
   },
-  "homepage": "https://github.com/Gerarck2021/Food_Ways#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/Gerarck2021/Food_Ways#readme"
 }

@@ -1,7 +1,6 @@
 {
-  "name": "Food_Ways",
+  "name": "food_ways",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
@@ -21,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/Gerarck2021/Food_Ways/issues"
   },
-  "homepage": "https://github.com/Gerarck2021/Food_Ways#readme"
+  "homepage": "https://github.com/Gerarck2021/Food_Ways#readme",
+  "description": ""
 }
